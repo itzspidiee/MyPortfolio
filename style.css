@@ -1,0 +1,108 @@
+ *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            padding-top: 70px;
+        }
+        .navbar{
+            background-color: rgb(38, 38, 109);
+            overflow: auto;
+            padding: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width:98.5%;
+            z-index: 100;
+        }
+        .navbar ul{
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 4px 8px;
+            font-weight:bold;
+        }
+        .navbar li a {
+            text-decoration: none;
+            color:white;
+            padding: 14px;
+            margin: 2px 8px;
+        }
+        .navbar li a:hover{
+            background-color:aqua;
+            color:black;
+            border-radius: 20px;
+        }
+        .search{
+            float: right;
+            padding: 4px;
+            margin-top: 0px;
+        }
+        .navbar input{ 
+            border: 1px solid black;
+            border-radius: 16px;
+            padding: 6px 18px;
+        }
+        .image{
+            margin: 0px 15px;
+        }
+        .text_on_image{
+            position: absolute;
+            top: 25%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            font-weight: bold;
+            color:blue;
+            left: 45%;
+            text-align: center;
+        }
+        .projects{
+            height: 500px;
+            width: 100%;
+        }
+        .project_heading{ 
+            font-size: 90px;
+            font-weight: bold;
+            margin-left: 475px;
+        }
+        .container{
+            background-color:white;
+            display: flex;
+            gap: 80px;
+            margin:40px 0px;
+        }
+        .lorem{
+            font-size: 45px;
+            font-family:sans-serif;
+            text-align: center;
+            margin:32px 0px;
+            font-weight: bold;
+        }
+        input{
+            padding: 7px 50px;
+            border-radius: 16px;
+        }
+        .login{
+            background-color:deepskyblue;
+            text-align: center;
+            font-size: 26px; 
+            padding: 40px;    
+            border-radius: 22px;
+            margin: 0px 28px 20px;      
+        }
+        .login input{
+            padding:10px 40px;
+            border-radius: 20px;
+            margin-top: 4px;
+        }
+        footer{
+            text-align:center;
+            padding: 20px;
+            background-color: rgb(38,38, 109);
+            color: whitesmoke;
+        }
