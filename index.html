@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Hanan | Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            padding-top: 70px;
+        }
+        .navbar{
+            background-color: rgb(38, 38, 109);
+            overflow: auto;
+            padding: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width:98.5%;
+            z-index: 100;
+        }
+        .navbar ul{
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 4px 8px;
+            font-weight:bold;
+        }
+        .navbar li a {
+            text-decoration: none;
+            color:white;
+            padding: 14px;
+            margin: 2px 8px;
+        }
+        .navbar li a:hover{
+            background-color:aqua;
+            color:black;
+            border-radius: 20px;
+        }
+        .search{
+            float: right;
+            padding: 4px;
+            margin-top: 0px;
+        }
+        .navbar input{ 
+            border: 1px solid black;
+            border-radius: 16px;
+            padding: 6px 18px;
+        }
+        .image{
+            margin: 0px 15px;
+        }
+        .text_on_image{
+            position: absolute;
+            top: 25%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            font-weight: bold;
+            color:blue;
+            left: 45%;
+            text-align: center;
+        }
+        .projects{
+            height: 500px;
+            width: 100%;
+        }
+        .project_heading{ 
+            font-size: 90px;
+            font-weight: bold;
+            margin-left: 475px;
+        }
+        .container{
+            background-color:white;
+            display: flex;
+            gap: 80px;
+            margin:40px 0px;
+        }
+        .lorem{
+            font-size: 45px;
+            font-family:sans-serif;
+            text-align: center;
+            margin:32px 0px;
+            font-weight: bold;
+        }
+        input{
+            padding: 7px 50px;
+            border-radius: 16px;
+        }
+        .login{
+            background-color:deepskyblue;
+            text-align: center;
+            font-size: 26px; 
+            padding: 40px;    
+            border-radius: 22px;
+            margin: 0px 28px 20px;      
+        }
+        .login input{
+            padding:10px 40px;
+            border-radius: 20px;
+            margin-top: 4px;
+        }
+        footer{
+            text-align:center;
+            padding: 20px;
+            background-color: rgb(38,38, 109);
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar  -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <!-- Search Box -->
+             <div class="search">
+                <input type="text" name="name" id="name"  placeholder="   Search here">
+             </div>
+        </nav>
+    </header>
+
+<main>
+
+    <!-- Background Image  -->
+    <section class="image" id="home">
+        <div style="position: relative; display: inline-block;">
+            <img src="photo-1498050108023-c5249f4df085.avif" alt="Network Error" style="width:100% ; height:auto; border-radius:30px">
+            <div class="text_on_image">
+                <p>Abdul Hanan | Professional Web-Developer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section  -->
+     <section class="projects" id="project" style="margin:70px 0px;">
+        <p class="project_heading">Projects</p>
+        <div class="container">
+            <!-- Project 1 -->
+             <div>
+                <p class="lorem">Project 1</p>
+                <img src="desk-1284085.jpg" alt="Error Loading"style="height:250px ; width:350px; margin-left:20px ; border-radius:16px;"><br><br>
+                <p style="text-align:center"><b>Description</b></p>
+                <p style="margin-left:20px">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, doloribus.</p>
+             </div>
+             
+             <!-- Project 2 -->
+              <div>
+                 <p class="lorem">Project 2</p>
+                 <img src="photo-1551288049-bebda4e38f71.jpg" alt="Error Loading" style="height:250px ; width:350px ; border-radius:16px;"><br><br>
+                 <p style="text-align:center"><b>Description</b></p>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, vitae! </p>
+              </div>
+
+              <!-- Project 3  -->
+                <div>
+                    <p class="lorem">Project 3</p> 
+                    <img src="photo-1555421689-3f034debb7a6.avif" alt="Error Loading" style="height:250px ; width:350px; margin-right:10px; border-radius:16px;"><br><br>
+                    <p style="text-align: center;"><b>Description</b></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, animi?</p>
+                </div>
+        </div>
+     </section>
+
+     <!-- About Me Section  -->
+       <p style="font-size:70px; font-weight:bold; text-align:center ; margin-top:160px; margin-bottom:28px;">About Me</p>
+    <section style="display:flex ; align-items:center ;" id="about" style="margin:70px 0;">
+        <img src="man-1866572.jpg" alt="Beautiful"  style="height:650px; width:550px; margin:0 30px; border-radius:30px;" />
+        <div  style="width: 50%; padding: 20px; display: flex; align-items: center; height: 650px;">
+            <p style="text-align: center; font-size: 28px;">
+                <i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ut laboriosam. Deserunt nobis ipsam aut numquam at doloribus fugit, perferendis sequi delectus<mark><b>Abdul Hanan | Web Web-Developer</b></mark>ipsa debitis enim dolorem harum, tempora expedita, ratione fugiat? Rem facilis illum esse doloremque, quae, reprehenderit atque est, rerum illo iste nam blanditiis optio assumenda! Sapiente, eligendi est?
+                </i>
+            </p>
+        </div>
+    </section>
+
+    <!-- Login Form Section  -->
+     <section class="login" id="contact" style="margin-top:70px;">
+        <p style="text-align:center ; font-size:70px  ; font-weight:bold ;">Enter Details</p><br><br>
+        <form action="#" method="post">
+
+        <!-- First Name  -->
+        <label for="first name"><b>First Name : &ensp;&ensp;&ensp;</b></label>
+        <input type="text" id="first name" name="First Name" required placeholder="First Name"><br><br>
+
+        <!-- Last Name -->
+        <label for="last name"><b>Last Name : &ensp;&ensp;&ensp;</b></label>
+        <input type="text" id="last name" name="Last Name" placeholder="Last Name        (Optional)"><br><br>
+
+        <!-- Date of Birth -->
+        <label for="Date of Birth"><b>Date of Birth : &nbsp;&nbsp; </b></label>
+        <input type="date" id="date of birth" name="date of birth" required placeholder="Date-Month-Year"><br><br>
+
+        <!-- Email -->
+        <label for="email"><b>Email : &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</b></label>
+        <input type="email" id="email" name="Email" required placeholder="@gmail.com"><br><br>
+
+        <!-- Password -->
+        <label for="password"><b>Password :&ensp;&ensp;&ensp;&ensp;&nbsp;</b></label>
+        <input type="password" id="password" name="Password" required placeholder="Your Password"><br><br>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit" style="padding:10px 40px ; background-color:red ; color:white ; border-radius:30px; cursor:pointer"><br><br>
+        </form>
+    </section>
+</main>
+   
+   <!-- Footer Section  -->
+    <footer>
+        <p style="font-size:30px ; margin-bottom:13px">Creating Digital Experience That Matters</p>
+        <p><b>&copy; 2025 Abdul Hanan. All rights reserved.</b></p>
+    </footer>
+</body>
+</html>
